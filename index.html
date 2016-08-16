@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="./lib/index.css">
+  <title>Document</title>
+  <style media="screen">
+
+
+  </style>
+</head>
+<body>
+  <div class="perspective" style="perspective:333.5px;">
+    <!--loading-->
+    <div class="load" style="display:block;">
+      <div class="loadImg">
+        <div class="loadTxt">loading</div>
+        <div class="circle"></div>
+        <div class="circle1"></div>
+      </div>
+    </div>
+    <!--首页-->
+    <div class="global" style="display:none;transform:translateZ(-333.5px);">
+      <div class="screen ease">
+        <section class="layer layer1" id="layer1" style="display:block; position:absolute; transform:rotateX(0deg) translateZ(333.5px);">
+          <div class="inner animated">
+            <div class="hd cf f12 yh">
+              <span class="fl">出品:腾讯体育</span>
+              <span class="fr">创意:腾讯网设计中心</span>
+            </div>
+            <div class="bd">
+              <div class="zh-logo">
+                <img width="108" src="http://mat1.gtimg.com/sports/worldcup2014/match/zh_logo.png" alt="">
+              </div>
+              <h1 class="logo">
+                <img width="320" src="http://mat1.gtimg.com/sports/worldcup2014/match/top_logo3.png" alt="">
+              </h1>
+              <div class="mofang">
+                <img width="260" src="http://mat1.gtimg.com/sports/worldcup2014/match/mofang2.png" alt="">
+              </div>
+            </div>
+            <div class="ft">
+              <div class="btn btn1">淘汰赛赛程</div>
+              <div class="btn btn2">分组赛程</div>
+              <div class="btn btn3">完全赛程</div>
+              <div class="btn btn4">招行网银7.0交易送足彩</div>
+            </div>
+          </div>
+        </section>
+        <!-- 淘汰赛 -->
+        <section class="layer layer2" id="layer2" style="position:absolute; transform:rotateX(-90deg) translateZ(334px);">
+          <div class="inner">
+            <div class="hd hd_bd">
+              <span class="tit">淘汰赛赛程</span>
+            </div>
+            <div class="bd">
+              <div id="js_tab_menu">
+                <ul>
+                  <li class="on"><span>1/8决赛</span></li>
+                  <li><span>1/4决赛</span></li>
+                  <li><span>半决赛</span></li>
+                  <li><span>决赛</span></li>
+                </ul>
+              </div>
+              <div id="js_tab_contents">
+                <div class="conitem one" style="display: block;">
+                	<div id="wrap_box">
+                  	<div id="scroller_1" style="transition-timing-function: cubic-bezier(0.1, 0.57, 0.1, 1); transition-duration: 0ms; transform: translate(0px, 0px) translateZ(0px);">
+                      <img class="bg" _src="http://mat1.gtimg.com/sports/worldcup2014/match/line1.png" src="http://mat1.gtimg.com/sports/worldcup2014/match/line1.png">
+                      <div class="items_box">
+                          <div class="item not_start">
+                              <span class="num">49</span>
+                              <ul class="country_list">
+                                  <li class="first"><span class="flag"><img _src="http://img1.gtimg.com/2014/pics/hv1/104/48/1641/106718369.jpg" src="http://img1.gtimg.com/2014/pics/hv1/104/48/1641/106718369.jpg"></span><span class="name">巴西</span><span class="score"></span></li>
+                                  <li><span class="flag"><img _src="http://img1.gtimg.com/2014/pics/hv1/105/48/1641/106718370.jpg" src="http://img1.gtimg.com/2014/pics/hv1/105/48/1641/106718370.jpg"></span><span class="name">智利</span><span class="score"></span></li>
+                              </ul>
+                              <div class="des">
+                                  <p>6月29日</p>
+                                  <p>00:00</p>
+                                  <p class="state">4-3</p>
+                              </div>
+                          </div>
+                          <div class="item not_start mt25">
+                              <span class="num">50</span>
+                              <ul class="country_list">
+                                  <li class="first"><span class="flag"><img _src="http://img1.gtimg.com/2014/pics/hv1/193/48/1641/106718458.jpg" src="http://img1.gtimg.com/2014/pics/hv1/193/48/1641/106718458.jpg"></span><span class="name">哥伦比亚</span><span class="score"></span></li>
+                                  <li><span class="flag"><img _src="http://img1.gtimg.com/2014/pics/hv1/194/48/1641/106718459.jpg" src="http://img1.gtimg.com/2014/pics/hv1/194/48/1641/106718459.jpg"></span><span class="name">乌拉圭</span><span class="score"></span></li>
+                              </ul>
+                              <div class="des">
+                                  <p>6月29日</p>
+                                  <p>04:00</p>
+                                  <p class="state">2-0</p>
+                              </div>
+                          </div>
+                          <div class="item not_start mt36">
+                              <span class="num">51</span>
+                              <ul class="country_list">
+                                  <li class="first"><span class="flag"><img _src="http://img1.gtimg.com/2014/pics/hv1/35/49/1641/106718555.jpg" src="http://img1.gtimg.com/2014/pics/hv1/35/49/1641/106718555.jpg"></span><span class="name">荷兰</span><span class="score"></span></li>
+                                  <li><span class="flag"><img _src="http://img1.gtimg.com/2014/pics/hv1/36/49/1641/106718556.jpg" src="http://img1.gtimg.com/2014/pics/hv1/36/49/1641/106718556.jpg"></span><span class="name">墨西哥</span><span class="score"></span></li>
+                              </ul>
+                              <div class="des">
+                                  <p>6月30日</p>
+                                  <p>00:00</p>
+                                  <p class="state">2-1</p>
+                              </div>
+                          </div>
+                          <div class="item not_start mt25">
+                              <span class="num">52</span>
+                              <ul class="country_list">
+                                  <li class="first"><span class="flag"><img _src="http://img1.gtimg.com/2014/pics/hv1/64/49/1641/106718584.jpg" src="http://img1.gtimg.com/2014/pics/hv1/64/49/1641/106718584.jpg"></span><span class="name">哥斯达黎加</span><span class="score"></span></li>
+                                  <li><span class="flag"><img _src="http://img1.gtimg.com/2014/pics/hv1/65/49/1641/106718585.jpg" src="http://img1.gtimg.com/2014/pics/hv1/65/49/1641/106718585.jpg"></span><span class="name">希腊</span><span class="score"></span></li>
+                              </ul>
+                              <div class="des">
+                                  <p>6月30日</p>
+                                  <p>04:00</p>
+                                  <p class="state">6-4</p>
+                              </div>
+                          </div>
+                          <div class="item not_start mt36">
+                              <span class="num">53</span>
+                              <ul class="country_list">
+                                  <li class="first"><span class="flag"><img _src="http://img1.gtimg.com/2014/pics/hv1/146/49/1641/106718666.jpg" src="http://img1.gtimg.com/2014/pics/hv1/146/49/1641/106718666.jpg"></span><span class="name">法国</span><span class="score"></span></li>
+                                  <li><span class="flag"><img _src="http://img1.gtimg.com/2014/pics/hv1/149/49/1641/106718669.jpg" src="http://img1.gtimg.com/2014/pics/hv1/149/49/1641/106718669.jpg"></span><span class="name">尼日利亚</span><span class="score"></span></li>
+                              </ul>
+                              <div class="des">
+                                  <p>7月1日</p>
+                                  <p>00:00</p>
+                                  <p class="state">2-0</p>
+                              </div>
+                          </div>
+                          <div class="item not_start mt25">
+                              <span class="num">54</span>
+                              <ul class="country_list">
+                                  <li class="first"><span class="flag"><img _src="http://img1.gtimg.com/2014/pics/hv1/186/49/1641/106718706.jpg" src="http://img1.gtimg.com/2014/pics/hv1/186/49/1641/106718706.jpg"></span><span class="name">德国</span><span class="score"></span></li>
+                                  <li><span class="flag"><img _src="http://img1.gtimg.com/2014/pics/hv1/185/49/1641/106718705.jpg" src="http://img1.gtimg.com/2014/pics/hv1/185/49/1641/106718705.jpg"></span><span class="name">阿尔及利亚</span><span class="score"></span></li>
+                              </ul>
+                              <div class="des">
+                                  <p>7月1日</p>
+                                  <p>04:00</p>
+                                  <p class="state">2-1</p>
+                              </div>
+                          </div>
+                          <div class="item not_start mt36">
+                              <span class="num">55</span>
+                              <ul class="country_list">
+                                  <li class="first"><span class="flag"><img _src="http://img1.gtimg.com/2014/pics/hv1/198/49/1641/106718718.jpg" src="http://img1.gtimg.com/2014/pics/hv1/198/49/1641/106718718.jpg"></span><span class="name">阿根廷</span><span class="score"></span></li>
+                                  <li><span class="flag"><img _src="http://img1.gtimg.com/2014/pics/hv1/199/49/1641/106718719.jpg" src="http://img1.gtimg.com/2014/pics/hv1/199/49/1641/106718719.jpg"></span><span class="name">瑞士</span><span class="score"></span></li>
+                              </ul>
+                              <div class="des">
+                                  <p>7月2日</p>
+                                  <p>00:00</p>
+                                  <p class="state">1-0</p>
+                              </div>
+                          </div>
+                          <div class="item not_start mt25">
+                              <span class="num">56</span>
+                              <ul class="country_list">
+                                  <li class="first"><span class="flag"><img _src="http://img1.gtimg.com/2014/pics/hv1/220/49/1641/106718740.jpg" src="http://img1.gtimg.com/2014/pics/hv1/220/49/1641/106718740.jpg"></span><span class="name">比利时</span><span class="score"></span></li>
+                                  <li><span class="flag"><img _src="http://img1.gtimg.com/2014/pics/hv1/225/49/1641/106718745.jpg" src="http://img1.gtimg.com/2014/pics/hv1/225/49/1641/106718745.jpg"></span><span class="name">美国</span><span class="score"></span></li>
+                              </ul>
+                              <div class="des">
+                                  <p>7月2日</p>
+                                  <p>04:00</p>
+                                  <p class="state">2-1</p>
+                              </div>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+              	</div>
+                <div class="conitem two" style="display: none;">
+                	<div id="wrap_box_2">
+                  	<div id="scroller_2" style="transition-timing-function: cubic-bezier(0.1, 0.57, 0.1, 1); transition-duration: 0ms; transform: translate(0px, 0px) translateZ(0px);">
+                    	<img class="bg" _src="http://mat1.gtimg.com/sports/worldcup2014/match/line2.png" src="http://mat1.gtimg.com/sports/worldcup2014/match/line2.png">
+                    	<div class="items_box">
+                      	<div class="item not_start">
+                        	<span class="num">57</span>
+                        	<ul class="country_list">
+                        		<li class="first"><span class="flag"><img _src="http://img1.gtimg.com/2014/pics/hv1/104/48/1641/106718369.jpg" src="http://img1.gtimg.com/2014/pics/hv1/104/48/1641/106718369.jpg"></span><span class="name">巴西</span><span class="score"></span></li>
+                        		<li><span class="flag"><img _src="http://img1.gtimg.com/2014/pics/hv1/193/48/1641/106718458.jpg" src="http://img1.gtimg.com/2014/pics/hv1/193/48/1641/106718458.jpg"></span><span class="name">哥伦比亚</span><span class="score"></span></li>
+                        	</ul>
+                        	<div class="des">
+	                        	<p>7月5日</p>
+	                        	<p>04:00</p>
+	                        	<p class="state">2-1</p>
+                        	</div>
+                      	</div>
+                      	<div class="item not_start mt25">
+                        	<span class="num">58</span>
+                        	<ul class="country_list">
+                        		<li class="first"><span class="flag"><img _src="http://img1.gtimg.com/2014/pics/hv1/146/49/1641/106718666.jpg" src="http://img1.gtimg.com/2014/pics/hv1/146/49/1641/106718666.jpg"></span><span class="name">法国</span><span class="score"></span></li>
+                        		<li><span class="flag"><img _src="http://img1.gtimg.com/2014/pics/hv1/186/49/1641/106718706.jpg" src="http://img1.gtimg.com/2014/pics/hv1/186/49/1641/106718706.jpg"></span><span class="name">德国</span><span class="score"></span></li>
+                        	</ul>
+                        	<div class="des">
+	                        	<p>7月5日</p>
+	                        	<p>00:00</p>
+	                        	<p class="state">0-1</p>
+                        	</div>
+                      	</div>
+                      	<div class="item not_start mt36">
+                        	<span class="num">59</span>
+                        	<ul class="country_list">
+                        		<li class="first"><span class="flag"><img _src="http://img1.gtimg.com/2014/pics/hv1/35/49/1641/106718555.jpg" src="http://img1.gtimg.com/2014/pics/hv1/35/49/1641/106718555.jpg"></span><span class="name">荷兰</span><span class="score"></span></li>
+                        		<li><span class="flag"><img _src="http://img1.gtimg.com/2014/pics/hv1/64/49/1641/106718584.jpg" src="http://img1.gtimg.com/2014/pics/hv1/64/49/1641/106718584.jpg"></span><span class="name">哥斯达黎加</span><span class="score"></span></li>
+                        	</ul>
+                        	<div class="des">
+	                        	<p>7月6日</p>
+	                        	<p>04:00</p>
+	                        	<p class="state">4-3</p>
+                        	</div>
+                      	</div>
+                      	<div class="item not_start mt25">
+                        	<span class="num">60</span>
+                        	<ul class="country_list">
+                        		<li class="first"><span class="flag"><img _src="http://f.seals.qq.com/filestore/10006/da/64/87/0/sportlogo/team_1_632.png?v=6" src="http://f.seals.qq.com/filestore/10006/da/64/87/0/sportlogo/team_1_632.png?v=6"></span><span class="name">阿根廷</span><span class="score"></span></li>
+                        		<li><span class="flag"><img _src="http://f.seals.qq.com/filestore/10006/da/64/87/0/sportlogo/team_1_360.png?v=6" src="http://f.seals.qq.com/filestore/10006/da/64/87/0/sportlogo/team_1_360.png?v=6"></span><span class="name">比利时</span><span class="score"></span></li>
+                        	</ul>
+                        	<div class="des">
+	                        	<p>7月6日</p>
+	                        	<p>00:00</p>
+	                        	<p class="state">1-0</p>
+                        	</div>
+                      	</div>
+                    	</div>
+                  	</div>
+                  </div>
+              	</div>
+                <div class="conitem three" style="display:none">
+                  <img src="http://mat1.gtimg.com/sports/worldcup2014/match/line4.png" alt="" class="bg">
+                  <div class="items_box">
+                    <div class="item not_start">
+                      <span class="num">61</span>
+                      <ul class="country_list">
+                        <li class="first">
+                          <span class="flag">
+                            <img src="http://img1.gtimg.com/2014/pics/hv1/186/49/1641/106718706.jpg" alt="">
+                          </span>
+                          <span clas="name">德国</span>
+                          <span class="score"></span>
+                        </li>
+                        <li>
+                          <span class="flag">
+                            <img src="http://f.seals.qq.com/filestore/10006/da/64/87/0/sportlogo/team_1_632.png?v=6" alt="">
+                          </span>
+                          <span class="name">阿根廷</span>
+                          <span class="score"></span>
+                        </li>
+                      </ul>
+                      <div class="des">
+                        <p>7月10日</p>
+                        <p>04:00</p>
+                        <p class="state">0-0(2-4)</p>
+                      </div>
+                    </div>
+                    <div class="item not_start mt25">
+                    	<span class="num">63</span>
+                      	<ul class="country_list">
+                      		<li class="first">
+                            <span class="flag"><img _src="http://img1.gtimg.com/2014/pics/hv1/104/48/1641/106718369.jpg" src="http://img1.gtimg.com/2014/pics/hv1/104/48/1641/106718369.jpg">
+                            </span>
+                            <span class="name">巴西</span>
+                            <span class="score"></span>
+                          </li>
+                      		<li>
+                            <span class="flag">
+                              <img _src="http://img1.gtimg.com/2014/pics/hv1/186/49/1641/106718706.jpg" src="http://img1.gtimg.com/2014/pics/hv1/186/49/1641/106718706.jpg"></span>
+                              <span class="name">荷兰</span>
+                              <span class="score"></span>
+                            </li>
+                        	</ul>
+                    	<div class="des">
+                      	<p>7月13日</p>
+                      	<p>04:00</p>
+                    	  <p class="state">0-3</p>
+                    	</div>
+                  	</div>
+                  </div>
+                </div>
+                <div class="conitem four" style="display:none">
+                  <img src="http://mat1.gtimg.com/sports/worldcup2014/match/line4.png" alt="" class="bg">
+                  <div class="items_box">
+                    <div class="item not_start">
+                      <span class="num">64</span>
+                      <ul class="country_list">
+                        <li class="first">
+                          <span class="flag">
+                            <img src="http://img1.gtimg.com/2014/pics/hv1/186/49/1641/106718706.jpg" alt="">
+                          </span>
+                          <span clas="name">德国</span>
+                          <span class="score"></span>
+                        </li>
+                        <li>
+                          <span class="flag">
+                            <img src="http://f.seals.qq.com/filestore/10006/da/64/87/0/sportlogo/team_1_632.png?v=6" alt="">
+                          </span>
+                          <span class="name">阿根廷</span>
+                          <span class="score"></span>
+                        </li>
+                      </ul>
+                      <div class="des">
+                        <p>7月14日</p>
+                        <p>03:00</p>
+                        <p class="state">1-0</p>
+                      </div>
+                    </div>
+                    <div class="item not_start mt25">
+                    	<span class="num">63</span>
+                      	<ul class="country_list">
+                      		<li class="first">
+                            <span class="flag"><img _src="http://img1.gtimg.com/2014/pics/hv1/104/48/1641/106718369.jpg" src="http://img1.gtimg.com/2014/pics/hv1/104/48/1641/106718369.jpg">
+                            </span>
+                            <span class="name">巴西</span>
+                            <span class="score"></span>
+                          </li>
+                      		<li>
+                            <span class="flag">
+                              <img _src="http://img1.gtimg.com/2014/pics/hv1/186/49/1641/106718706.jpg" src="http://img1.gtimg.com/2014/pics/hv1/186/49/1641/106718706.jpg"></span>
+                              <span class="name">荷兰</span>
+                              <span class="score"></span>
+                            </li>
+                        	</ul>
+                    	<div class="des">
+                      	<p>7月13日</p>
+                      	<p>04:00</p>
+                    	  <p class="state">0-3</p>
+                    	</div>
+                  	</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="layer layer3" id="layer3" style="position:absolute; transform:rotateX(180deg) translateZ(333.5px);">
+          <div class="inner">
+            <div class="hd hd_bd">
+              <span class="tit">分组赛程</span>
+            </div>
+            <div class="bd">
+              <ul class="list cf">
+                <li class="item itemA"><span class="group">A</span>组</li>
+                <li class="item itemB"><span class="group">B</span>组</li>
+                <li class="item itemC"><span class="group">C</span>组</li>
+                <li class="item itemD"><span class="group">D</span>组</li>
+                <li class="item itemLogo"><span class="group"></span></li>
+                <li class="item itemE"><span class="group">E</span>组</li>
+                <li class="item itemF"><span class="group">F</span>组</li>
+                <li class="item itemG"><span class="group">G</span>组</li>
+                <li class="item itemH"><span class="group">H</span>组</li>
+              </ul>
+            </div>
+            <div class="swipe_tip">
+
+            </div>
+          </div>
+        </section>
+        <section class="layer layer4" id="layer4" style="position:absolute; transform:rotateX(-270deg) translateZ(333.5px);">
+          <div class="inner animate">
+            <div class="hd hd_bd">
+              <span class="tit">世界杯完全赛程</span>
+            </div>
+            <div class="timeline">
+              <div class="timeline_bd">
+                <div class="time_scale">
+                  <i class="arr_top"></i>
+                  <div id="goHome" class="go_home"></div>
+                </div>
+                <div class="linebox" id="wrapper">
+                  <div class="lineinner" id="scroller" style="transition-timing-function: cubic-bezier(0.1, 0.57, 0.1, 1); transition-duration: 0ms; transform: translate(0px, 0px) translateZ(0px);">
+                    <ul>
+                      <li data-item="0" class="item  delay0">
+                      <i class="dot"></i>
+                    <div class="day">
+                        <time>6月13日</time>
+                        <p>星期五</p>
+                    </div>
+                  <div class="box ">
+                    <dl class="cf">
+                    <dt class="time fl">4:00</dt>
+                      <dd class="text ">
+                      <div class="tit">
+                        <span class="num">01</span>
+                          巴西 3-1 克罗地亚
+                        <span class="hot">HOT</span>
+                      </div>
+                          凌晨起床看完揭幕战，洗洗去上班。
+                      </dd>
+                    </dl>
+                  </div>
+                </li>
+                <li data-item="1" class="item  delay1">
+                <i class="dot"></i>
+                <div class="day">
+                  <time>6月14日</time>
+                  <p>星期六</p>
+                </div>
+                <div class="box ">
+                <dl class="cf">
+                  <dt class="time fl">0:00</dt>
+                  <dd class="text  text2">
+                  <div class="tit">
+                    <span class="num">02</span>
+                    墨西哥 1-0 喀麦隆
+                  </div>
+                  </dd>
+                </dl>
+                <dl class="cf">
+                <dt class="time fl">3:00</dt>
+                <dd class="text ">
+                  <div class="tit">
+                    <span class="num">03</span>
+                    西班牙 1-5 荷兰
+                    <span class="hot">HOT</span>
+                  </div>
+                  周末真好，约上好友刷夜看球，清晨5点开始补觉。
+                </dd>
+                </dl>
+                <dl class="cf">
+                <dt class="time fl">6:00</dt>
+                  <dd class="text  text2">
+                      <div class="tit">
+                        <span class="num">04</span>
+                        智利 3-1 澳大利亚
+                      </div>
+                  </dd>
+                </dl>
+              </div>
+            </li>
+            <li data-item="2" class="item  delay2">
+            <i class="dot"></i>
+            <div class="day">
+              <time>6月15日</time>
+              <p>星期日</p>
+            </div>
+            <div class="box ">
+              <dl class="cf">
+                <dt class="time fl">0:00</dt>
+                <dd class="text  text2">
+                <div class="tit">
+                  <span class="num">05</span>
+                  哥伦比亚 3-0 希腊
+                </div>
+                </dd>
+              </dl>
+              <dl class="cf">
+                <dt class="time fl">3:00</dt>
+                <dd class="text  text2">
+                  <div class="tit">
+                    <span class="num">06</span>
+                    乌拉圭 1-3 哥斯达黎加
+                  </div>
+                </dd>
+              </dl>
+              <dl class="cf">
+                <dt class="time fl">6:00</dt>
+                <dd class="text ">
+                  <div class="tit">
+                    <span class="num">07</span>
+                    英格兰 1-2 意大利
+                    <span class="hot">HOT</span>
+                  </div>
+                  周日起大早，英意大战绝对不能错过。
+                </dd>
+              </dl>
+              <dl class="cf">
+                <dt class="time fl">9:00</dt>
+                <dd class="text ">
+                  <div class="tit">
+                    <span class="num">08</span>
+                    科特迪瓦 2-1 日本<span class="hot">HOT</span>
+                  </div>
+                  英意大战没过瘾，接着研究日本队.
+                </dd>
+              </dl>
+            </div>
+          </li>
+          <li data-item="3" class="item  delay3">
+            <i class="dot"></i>
+            <div class="day">
+              <time>6月16日</time>
+              <p>星期一</p>
+            </div>
+            <div class="box ">
+              <dl class="cf">
+                <dt class="time fl">0:00</dt>
+                <dd class="text  text2">
+                  <div class="tit">
+                    <span class="num">09</span>
+                    瑞士 2-1 厄瓜多尔
+                  </div>
+                </dd>
+              </dl>
+              <dl class="cf">
+                <dt class="time fl">3:00</dt>
+                <dd class="text ">
+                  <div class="tit">
+                    <span class="num">10</span>
+                    法国 3-0 洪都拉斯<span class="hot">HOT</span>
+                  </div>
+                  铁杆法国球迷辛苦，后半夜看球，看完天快亮，还能睡个回笼觉，别忘了上闹钟。
+                </dd>
+              </dl>
+              <dl class="cf">
+                <dt class="time fl">6:00</dt>
+                <dd class="text ">
+                  <div class="tit">
+                    <span class="num">11</span>
+                    阿根廷 2-1 波黑<span class="hot">HOT</span>
+                  </div>
+                  看完8点，赶着上班，别迟到哦。
+                </dd>
+              </dl>
+            </div>
+          </li>
+          <li class="item last">
+            <i class="dot"></i>
+            <div class="day">
+              <p>出品</p>
+            </div>
+            <div class="box ">
+              <img width="180" src="http://mat1.gtimg.com/sports/worldcup2014/match/ued_wfe2.png" alt="">
+            </div>
+          </li>
+        </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="ft cf"></div>
+            <div class="zh_bar"></div>
+            <div class="swipe_tip"></div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+  <div class="story" style="display:none;">
+    <div class="storyshadow"></div>
+    <div class="storydialog"></div>
+    <div class="full_screen dialog_index opacity">
+      <img width="320" src="http://mat1.gtimg.com/sports/worldcup2014/match/zh_img_new_0624.jpg" alt="">
+      <a href="" class="link"><img width="320" src="http://mat1.gtimg.com/sports/worldcup2014/match/zh_link_0624.png" alt=""></a>
+      <span class="close"></span>
+    </div>
+  </div>
+
+  <script src="http://cdn.bootcss.com/zepto/1.2.0/zepto.min.js"></script>
+  <script src="./lib/alloy_finger/alloy_finger.js" charset="utf-8"></script>
+  <!-- <script src="/lib/alloy_finger/transform.js" charset="utf-8"></script> -->
+  <script src="./lib/index.js" charset="utf-8"></script>
+</body>
+</html>
