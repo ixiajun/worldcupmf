@@ -1,3 +1,3 @@
 # worldcupmf
 腾讯实例模仿赛程
-线上demo: coderxj.leanapp.c.mofang
+线上地址: coderxj.leanapp.c.mofang
